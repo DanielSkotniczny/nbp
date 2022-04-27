@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	background-color: #363d57;
+	width: 100%;
+}
+
+.container {
+	background-color: white;
+	font-size: 1.8rem;
+	border-radius: 10px;
+}
+
+.container h3 {
+	font-size: 3.5rem;
+	padding: 0.5em 1em;
+	text-align: center;
+}
+
+.rate {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 5px;
+	margin: 10px;
+	padding: 10px;
+	border-bottom: 1px dotted;
+}
